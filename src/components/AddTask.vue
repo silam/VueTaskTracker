@@ -48,14 +48,15 @@ export default {
             }
     },
     methods: {
-        onSubmit(e) {
+        onSubmit(e) 
+        {
             e.preventDefault()
             
             
             if (!this.text) {
                     alert('Please enter a task')
                     return
-                }
+            }
             
 
             const newTask = {
@@ -63,7 +64,7 @@ export default {
                     text: this.text,
                     day: this.day,
                     reminder: this.reminder
-                }
+            }
 
             this.$emit('add-task', newTask);
 
@@ -71,7 +72,7 @@ export default {
             this.day = ''
             this.reminder = false
         }
-        }
+    }
 }
 
 </script>
