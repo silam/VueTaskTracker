@@ -1,5 +1,8 @@
 # tasktrack
 
+This project is about Task Tracking developed using VueJS as FrontEnd, and json-server as backend for testing 
+
+
 ## Project setup
 ```
 npm install
